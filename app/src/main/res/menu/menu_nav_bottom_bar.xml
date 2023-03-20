@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mainFragment"
+        android:icon="@drawable/ic_baseline_groups_24"
+        android:title="@string/hobbies" />
+    <item
+        android:id="@+id/userHobbiesFragment"
+        android:icon="@drawable/ic_baseline_favorite_24"
+        android:title="@string/my_hobbies" />
+    <item
+        android:id="@+id/searchFragment"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="@string/search"/>
+    <item
+        android:id="@+id/accountFragment"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="@string/account"/>
+    <item
+        android:id="@+id/chatFragment"
+        android:icon="@drawable/ic_baseline_chat_bubble_24"
+        android:title="@string/chat"/>
+</menu>

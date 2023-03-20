@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/friend_requests_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@color/invisible"
+            android:padding="@dimen/default_padding"
+            android:src="@drawable/ic_envelope_24" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="@string/friend_requests_btn_label"
+            android:textSize="@dimen/account_labels_text_size" />
+
+        <include layout="@layout/fragment_arrow_forward_right" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/admin_panel_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@color/invisible"
+            android:padding="@dimen/default_padding"
+            android:src="@drawable/ic_admin_24" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="@string/admin_panel_btn_label"
+            android:textSize="@dimen/account_labels_text_size" />
+
+        <include layout="@layout/fragment_arrow_forward_right" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/user_location_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@color/invisible"
+            android:padding="@dimen/default_padding"
+            android:src="@drawable/ic_map_pin_24" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="@string/user_location_btn_label"
+            android:textSize="@dimen/account_labels_text_size" />
+
+        <include layout="@layout/fragment_arrow_forward_right" />
+    </LinearLayout>
+
+</LinearLayout>

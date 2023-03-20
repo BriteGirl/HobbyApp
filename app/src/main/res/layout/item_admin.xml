@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="@dimen/default_padding"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/md_theme_light_surface"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/admin_mini_img"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        tools:srcCompat="@tools:sample/avatars"
+        android:layout_gravity="center_vertical"
+        android:background="@color/md_theme_light_primaryContainer"
+        android:contentDescription="@string/user_picture_cd" />
+
+    <TextView
+        android:id="@+id/admin_role"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/default_padding"
+        android:textSize="16sp"
+        android:textColor="@color/md_theme_light_primary"
+        android:textStyle="bold"
+        tools:text="Admin"
+        android:layout_gravity="center_vertical"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/default_padding"
+        android:orientation="vertical"
+        android:layout_marginStart="4dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/admin_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            tools:text="Username"/>
+        <TextView
+            android:id="@+id/admin_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            tools:text="User's name"/>
+        <TextView
+            android:id="@+id/admin_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            tools:text="e.mail@email.com"/>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/admin_message_user_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:background="@color/invisible"
+        android:contentDescription="@string/message_user_cd"
+        android:src="@drawable/ic_baseline_message_48"
+        android:layout_gravity="center_vertical"
+        app:tint="@color/md_theme_light_primary" />
+    <ImageButton
+        android:id="@+id/admin_settings_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:background="@color/invisible"
+        android:contentDescription="@string/message_user_cd"
+        android:src="@drawable/ic_baseline_settings_48"
+        android:layout_gravity="center_vertical"
+        app:tint="@color/md_theme_light_primary" />
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="@dimen/default_padding"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/md_theme_light_surface"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/user_mini_img"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        tools:srcCompat="@tools:sample/avatars"
+        android:background="@color/md_theme_light_primaryContainer"
+        android:contentDescription="@string/user_picture_cd" />
+    <TextView
+        android:id="@+id/user_list_username"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        tools:text="Username"
+        android:layout_marginStart="4dp"
+        android:layout_weight="1"/>
+
+    <ImageButton
+        android:id="@+id/user_list_add_friend_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:background="@color/invisible"
+        android:src="@drawable/ic_baseline_person_add_20"
+        android:contentDescription="@string/add_user_to_friends_btn_cd" />
+
+    <ImageButton
+        android:id="@+id/user_list_message_user_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:src="@drawable/ic_baseline_message_20"
+        android:background="@color/invisible"
+        android:contentDescription="@string/message_user_cd" />
+
+</LinearLayout>

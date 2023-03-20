@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/chat_headline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/default_padding"
+        android:orientation="horizontal"
+        android:background="@color/md_theme_light_primaryContainer">
+        <ImageView
+            android:id="@+id/chat_image"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@color/md_theme_light_primary"/>
+        <TextView
+            android:id="@+id/chat_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/default_padding"
+            tools:text="Username"/>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/chat_rv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="@dimen/default_padding"
+        tools:listitem="@layout/item_message_received"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/default_padding"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/message_edit_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/message_edit_text_hint"
+            android:inputType="textLongMessage|textAutoComplete|textAutoCorrect"
+            android:importantForAutofill="no" />
+        <ImageButton
+            android:id="@+id/send_message_btn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_baseline_send_24"
+            app:tint="@color/md_theme_light_primary"
+            android:contentDescription="@string/send_message_cd" />
+    </LinearLayout>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

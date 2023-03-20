@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Rounded" parent="ShapeAppearance.Material3.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+
+    <style name="UserGreeting">
+        <item name="android:textSize">@dimen/username_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/md_theme_light_onPrimary</item>
+        <item name="android:paddingBottom">@dimen/break_padding</item>
+    </style>
+
+    <style name="DataSectionLabel">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingTop">8dp</item>
+    </style>
+
+    <style name="UserData">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/md_theme_light_onPrimary</item>
+    </style>
+
+    <style name="SearchFilter">
+        <item name="android:textSize">@dimen/search_filter_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/md_theme_light_primary</item>
+    </style>
+
+    <style name="SearchFilterDisplayList">
+        <item name="android:textSize">@dimen/search_filter_display_text_size</item>
+        <item name="android:textColor">@color/md_theme_light_onSurfaceVariant</item>
+    </style>
+
+    <style name="MessageCardView" parent="Widget.MaterialComponents.CardView">
+        <item name="strokeWidth">0dp</item>
+        <item name="cardBackgroundColor">@color/md_theme_light_secondaryContainer</item>
+    </style>
+
+    <style name="MessageContent">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/md_theme_light_onBackground</item>
+        <item name="android:layout_marginTop">@dimen/basic_margin</item>
+        <item name="android:layout_marginStart">@dimen/basic_margin</item>
+        <item name="android:layout_marginEnd">@dimen/basic_margin</item>
+    </style>
+
+    <style name="MessageTime">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/md_theme_light_onSurfaceVariant</item>
+        <item name="android:layout_marginBottom">@dimen/basic_margin</item>
+        <item name="android:layout_marginStart">@dimen/basic_margin</item>
+        <item name="android:layout_marginEnd">@dimen/basic_margin</item>
+    </style>
+
+    <dimen name="username_text_size">24sp</dimen>
+    <dimen name="search_filter_text_size">16sp</dimen>
+    <dimen name="search_filter_display_text_size">12sp</dimen>
+    <dimen name="break_padding">16dp</dimen>
+</resources>

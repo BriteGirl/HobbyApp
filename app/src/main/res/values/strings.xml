@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Hobby App</string>
+    <string name="password_input_hint">Enter password</string>
+    <string name="login_input_hint">Enter e-mail</string>
+    <string name="log_in">Log in.</string>
+    <string name="register">Register.</string>
+    <string name="no_account_tv">Don\'t have an account?</string>
+    <string name="have_account_tv">Already have an account?</string>
+    <string name="sign_in_label">Sign in</string>
+    <string name="register_label">Sign up</string>
+    <string name="username_greeting">Hello, %1$s!</string>
+    <string name="or">OR</string>
+    <string name="suggest_new_hobby">Suggest new hobby</string>
+    <string name="hobby_name_label">Hobby name *</string>
+    <string name="enter_new_name">Enter your new name</string>
+    <string name="enter_new_username">Enter new username</string>
+    <string name="enter_new_email">Enter new e-mail address</string>
+    <string name="hobby_users_list_label">Users interested in this hobby</string>
+    <string name="message_edit_text_hint">Type your message</string>
+
+    <!--    Buttons    -->
+    <string name="submit">Submit</string>
+    <string name="decline">DECLINE</string>
+    <string name="accept">ACCEPT</string>
+    <string name="cancel">Cancel</string>
+    <string name="login_btn">Log in</string>
+    <string name="register_btn">Register</string>
+    <string name="sign_out">Sign out</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="sign_up_with_google">Sign up with Google</string>
+    <string name="friend_requests_btn_label">Friend requests</string>
+    <string name="admin_panel_btn_label">Admin panel</string>
+    <string name="user_location_btn_label">Location</string>
+    <string name="save_btn_label">Save</string>
+    <string name="ok_btn_label">OK</string>
+    <string name="clear_btn_label">Clear</string>
+
+    <!--    Navigation tabs    -->
+    <string name="hobbies">Hobbies</string>
+    <string name="my_hobbies">My hobbies</string>
+    <string name="search">Search</string>
+    <string name="account">Account</string>
+    <string name="chat">Chat</string>
+
+    <!--    Content descriptions    -->
+    <string name="user_picture_cd">User\'s picture</string>
+    <string name="add_user_to_friends_btn_cd">Add user to friends button</string>
+    <string name="message_user_cd">Send this user a message</string>
+    <string name="arrow_forward_cd">A forward arrow pointing right</string>
+    <string name="favourite_button_cd">Favourite button</string>
+    <string name="send_message_cd">Send message</string>
+
+    <!--    User feedback messages  -->
+    <string name="loading">Loading…</string>
+    <string name="signed_in_only">Sorry, you have to be signed in to use this feature…</string>
+    <string name="friend_request_sent">Friend request has been sent successfully.</string>
+    <string name="something_went_wrong">Something went wrong, try again later.</string>
+    <string name="no_user_logged_in">No user logged in!</string>
+    <string name="no_chats_yet">No chats yet. Try texting someone!</string>
+
+    <!--    Admin panel tab titles  -->
+    <string name="tab_admins_label">ADMINS</string>
+    <string name="tab_hobbies_suggestions_label">HOBBIES SUGGESTIONS</string>
+    <string name="tab_bug_reports_label">REPORTS</string>
+
+    <!--    Search filters    -->
+    <string name="hobbies_filter_label">HOBBIES</string>
+</resources>
